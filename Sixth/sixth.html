@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sixth.css" />
+    <title>Sixth</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            На странице создан произвольный контент и кнопка вызова модального окна. 
+            По нажатию нужно отобразить оверлей (блок с затемнением) и модальное окно по середине экрана. 
+        </p>
+        <button class="btn" id="openOverlay">открыть</button>
+    </div>
+    <script type="html/template" id="overlayTemplate">
+        <div class="modal-container">
+        <a class="close" href="#">x</a>
+        <div class="content"></div>
+      </div>
+    </script>
+    <script src="modal.js"></script>
+    <!--Первый вариант-->
+    <!--<script src="modalTemplate.js"></script>-->
+    <!--Второй вариант-->
+</body>
+
+</html>
